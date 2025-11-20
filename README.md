@@ -1,2 +1,2 @@
 # QR-generator
-Generador de QR para AGC
+Generador de códigos QR desde enlace, devuelve un archivo .png en alta resolución.
