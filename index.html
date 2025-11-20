@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de QR</title>
+
+    <!-- Bootswatch Flatly CSS vía CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+
+    <!-- Contenido -->
+    <div class="container py-4">
+
+        <h1 class="mb-4 text-center">Generador de Códigos QR</h1>
+
+        <div class="mb-3">
+            <input type="text" class="form-control" id="link" placeholder="Introduce tu enlace aquí">
+        </div>
+
+        <div class="text-center">
+            <button id="generate-btn" class="btn btn-primary">Generar QR</button>
+        </div>
+
+        <div id="qr-code" class="mt-4 text-center"></div>
+
+    </div>
+
+    <!-- Footer completo de lado a lado -->
+    <footer class="bg-primary text-white text-center py-3 w-100">
+        <small>Agencia Gubernamental de Control © 2025</small>
+    </footer>
+
+    <!-- Librería qrcode.js -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+
+    <!-- Tu script -->
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>

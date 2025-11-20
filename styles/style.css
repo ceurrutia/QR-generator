@@ -1,0 +1,13 @@
+ #qr-code img {
+     width: 300px !important;
+     height: 300px !important;
+     display: block;
+     margin: 0 auto;
+ }
+
+ #qr-code canvas {
+     width: 300px !important;
+     height: 300px !important;
+     display: block;
+     margin: 0 auto;
+ }
